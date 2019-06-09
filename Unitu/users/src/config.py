@@ -1,0 +1,11 @@
+import os
+
+class Config:
+    TESTING = False
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
+    DEBUG_TB_INTERCEPT_REDIRECTS = False
+    SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL')
+    DEBUG_TB_ENABLED = True
+    SECRET_KEY = os.environ.get('SECRET_KEY')
+    TOKEN_EXPIRATION_DAYS = 30
+    TOKEN_EXPIRATION_SECONDS = 0

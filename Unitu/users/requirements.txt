@@ -1,0 +1,12 @@
+Flask
+Flask-SQLAlchemy
+psycopg2
+flask-migrate
+flask-bcrypt
+pyjwt
+requests
+Flask-Testing
+mock
+coverage
+parameterized
+flask-cors
